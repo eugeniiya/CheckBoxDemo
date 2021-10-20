@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="CheckBoxDemo.MainPage"
+ BackgroundColor="AliceBlue"
+ Padding="0,100,0,0">
+    <Grid Margin="20,35,20,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.25*" />
+            <ColumnDefinition Width="0.20*" />
+            <ColumnDefinition Width="0.35*" />
+            <ColumnDefinition Width="0.20*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="200" />
+        </Grid.RowDefinitions>
+        <Label Text="Italic:"
+ TextColor="Black" FontAttributes="Bold"
+ FontSize="16"
+ VerticalOptions="Center"/>
+        <CheckBox Grid.Column="1"
+                   Color="#0192DA"
+ CheckedChanged="OnItalic"
+ VerticalOptions="Center" />
+        <Label Grid.Column="2"
+ Text="Bold:"
+ TextColor="Black" FontAttributes="Bold"
+ FontSize="16"
+ VerticalOptions="Center" />
+        <CheckBox Grid.Column="3"
+ Color="#0192DA"
+ CheckedChanged="OnBold"
+ VerticalOptions="Center" />
+        <Label Grid.Row="1"
+ Text="Underline:"
+ TextColor="Black" FontAttributes="Bold"
+ FontSize="16"
+ VerticalOptions="Center" />
+        <CheckBox Grid.Row="1"
+ Grid.Column="1"
+ Color="#0192DA"
+ CheckedChanged="OnUnderline"
+ VerticalOptions="Center" />
+        <Label Grid.Row="1"
+ Grid.Column="2"
+ Text="Strikethrough:"
+ TextColor="Black" FontAttributes="Bold"
+ FontSize="16"
+ VerticalOptions="Center" />
+        <CheckBox Grid.Row="1"
+ Grid.Column="3"
+ Color="#0192DA"
+ CheckedChanged="OnStrikethrough"
+ VerticalOptions="Center" />
+        <Label x:Name="label"
+ Grid.Row="2"
+ Grid.ColumnSpan="4"
+ TextColor="Blue" FontAttributes="Bold"
+ FontSize="30"
+ HorizontalTextAlignment="Center"
+ VerticalTextAlignment="Center"
+ Text="биббиди боббиди бу"/>
+    </Grid>
+</ContentPage>
