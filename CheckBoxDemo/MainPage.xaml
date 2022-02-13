@@ -21,7 +21,7 @@
  FontSize="16"
  VerticalOptions="Center"/>
         <CheckBox Grid.Column="1"
-                   Color="#0192DA"
+                   Color="Red"
  CheckedChanged="OnItalic"
  VerticalOptions="Center" />
         <Label Grid.Column="2"
@@ -30,7 +30,7 @@
  FontSize="16"
  VerticalOptions="Center" />
         <CheckBox Grid.Column="3"
- Color="#0192DA"
+ Color="Red"
  CheckedChanged="OnBold"
  VerticalOptions="Center" />
         <Label Grid.Row="1"
@@ -40,7 +40,7 @@
  VerticalOptions="Center" />
         <CheckBox Grid.Row="1"
  Grid.Column="1"
- Color="#0192DA"
+ Color="Red"
  CheckedChanged="OnUnderline"
  VerticalOptions="Center" />
         <Label Grid.Row="1"
@@ -51,16 +51,16 @@
  VerticalOptions="Center" />
         <CheckBox Grid.Row="1"
  Grid.Column="3"
- Color="#0192DA"
+ Color="Red"
  CheckedChanged="OnStrikethrough"
  VerticalOptions="Center" />
         <Label x:Name="label"
  Grid.Row="2"
  Grid.ColumnSpan="4"
- TextColor="Blue" FontAttributes="Bold"
+ TextColor="Red" FontAttributes="Bold"
  FontSize="30"
  HorizontalTextAlignment="Center"
  VerticalTextAlignment="Center"
- Text="биббиди боббиди бу"/>
+ Text="Ханаока Инна"/>
     </Grid>
 </ContentPage>
